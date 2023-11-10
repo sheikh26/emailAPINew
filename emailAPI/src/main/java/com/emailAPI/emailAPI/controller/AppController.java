@@ -22,8 +22,8 @@ public class AppController {
 
 		String from = fromEmail;
 		String to = toEmail;
-		System.out.println("from-email---" + from);
-		System.out.println("to--email-" + to);
+		//System.out.println("from-email---" + from);
+		//System.out.println("to--email-" + to);
 
 		SimpleMailMessage message = new SimpleMailMessage();
 		message.setFrom(from);
